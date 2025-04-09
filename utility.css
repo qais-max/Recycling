@@ -1,0 +1,17 @@
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex{
+  display: flex;
+}
+.hidden{
+  display:none ;
+}
+.gap{
+  gap: 9px;
+}
+.flex-col{
+  flex-direction: column;
+}
