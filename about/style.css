@@ -1,3 +1,5 @@
+
+
  @import url(utility.css);
  * {
   margin: 0;
@@ -40,6 +42,7 @@ nav li{
 .hamburger{
   /*height: 30px;
   width: 40px ;*/
+  margin-left: 100px;
 }
 .bars{
   height: 2px;
@@ -51,17 +54,25 @@ nav li{
   object-fit: cover;
   width: 1440px;
   height: 930px;
-  background: url(/about/images/373806110c222e7a4ec03b70c3223fdd.jpg)
+  background: url(/images/373806110c222e7a4ec03b70c3223fdd.jpg);
   
+  }.sign-up{
+    padding: 10px;
+    background: rgba(34, 139, 34, 1);
+    color: white;
+    border-radius: 4px;
+    height: 36px;
+    width: 79px ;
   }
+
   .about{
-    padding-top: 300px;
-    padding-left: 150px;
-    padding-right: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+   
+    text-align: center;
+    height: 216px;
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 200px;
+
   }
   h3 {
     margin-bottom: 18px;
@@ -70,23 +81,28 @@ nav li{
     margin-bottom: 10px;
   }
   .vision{
-    height:1384px;
+    height:1000px;
     width: 1440px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 50px;
+    margin-top: 50px;
   }
-  .sion{
-  font-size:16px ;
+  .sion {
+  font-size:24px ;
   font-weight:400 ;
-  line-height:100%;
+  line-height:150%;
+  height: 349px;
+  width: 594px;
   }
   .mission{
- /* display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  gap: 50px;*/
+ font-size:24px ;
+ font-weight: 400;
+ line-height: 150%;
+  }
+  .bow{
+    
   }
 
   .our-services{
@@ -106,13 +122,15 @@ nav li{
     padding-top: 30px;
     padding-left:30px ;
     padding-right: 30px;
+    margin-top: 130px;
   }
   .bottle{
     height: 100px;
     width: 100px;
     object-fit: cover;
     border-radius: 100px;
-    margin-left: 95px;
+    margin-left: 60px;
+    
 }
 
 .b-c{
@@ -120,18 +138,22 @@ nav li{
   width: 389px;
   border-radius: 20px;
   padding: 30px 23px 30px 23px;
+  border: 1px solid rgb(231, 222, 222);
 }
 .b-r{
   height: 296px;
   width: 389px;
   border-radius: 20px;
   padding: 30px 23px 30px 23px;
+   border: 1px solid rgb(231, 222, 222);
+
 }
 .b-t{
   height: 296px;
   width: 389px;
   border-radius: 20px;
   padding: 30px 23px 30px 23px;
+  border: 1px solid rgb(231, 222, 222);
 }
 
 
@@ -140,6 +162,7 @@ nav li{
   width: 389px;
   border-radius: 20px;
   padding: 30px 23px 30px 23px;
+  border: 1px solid rgb(231, 222, 222);
 }
 
 .b-p{
@@ -147,6 +170,8 @@ nav li{
   width: 389px;
   border-radius: 20px;
   padding: 30px 23px 30px 23px;
+   border: 1px solid rgb(231, 222, 222);
+
 }
 
 
@@ -155,6 +180,7 @@ nav li{
   width: 389px;
   border-radius: 20px;
   padding: 30px 23px 30px 23px;
+   border: 1px solid rgb(231, 222, 222);
 }
 .increase {
   display: flex;
@@ -168,6 +194,7 @@ nav li{
   line-height: 150%;
 }
 .footer-wrap{
+  margin-top:100px ;
   height: 486px;
   width: 1440px ;
   display: flex;
@@ -175,7 +202,7 @@ nav li{
   padding-top: 64px;
   gap: 24px;
   background: rgba(250, 252, 251, 1)
-
+  
 }
 
 .footer-left{
@@ -241,32 +268,51 @@ nav li{
   .res-flex-col {
     flex-direction: column;
 
-  }nav{
+  }
+  nav{
     height:80px ;
       width: 375px;
       margin-top: 44px; 
   }
-  .nav-house{
-    width: 375px;
-    height: 324px;
-    
+  .nav-house {
+     width: 375px;
+      height: 370px;
+      object-fit: cover;
+      
     }
+    .First-logo{
+      width: 49.34px;
+      height:50px ;
+      margin-right: 50px;
+    }
+
     .about{
-      height: 165px;
+      height: 70px;
       width: 327px;
+      text-align: center;
+      margin-left: 20px;
+      margin-top: 50px;
+
     }
     .vision {
       height:1165px ;
       width: 375;
       display: flex;
      flex-direction: column;
+     
   
     }
+    
     .first-sec{
       display: flex;
       flex-direction: column;
       height:1679px ;
       width: 327px;
+      line-height: 100%;
+      font-size: 11.9px;
+      font-weight: 400;
+      margin-left: 8px;
+      margin-right: 8px;
 
     }
     .b-c{
@@ -277,9 +323,10 @@ nav li{
     }
     .b-r{
       height: 296px;
-      width: 389px;
+      width: 327px;
       border-radius: 20px;
       padding: 30px 23px 30px 23px;
+      
     }
     .b-t{
       height: 248px;
@@ -313,14 +360,23 @@ nav li{
     .increase {
       display: flex;
       flex-direction: column;
+      
     
       }
       .second-sec {
-        margin-top: 200px
+        margin-top: 200px;
+        margin-left: 8px;
+        margin-right: 8px;
+        line-height: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 80px;
+
+
+      
 
       }
     
-
    .our-services{
         margin-top: 40px;
         height: 1500px;
@@ -335,7 +391,7 @@ nav li{
       border-top-left-radius: 60px;
       color:black;
       background:white; 
-      margin-top: 2569px;
+      margin-top: 1600px;
       border-right: 0.46px;
       border-top: 0.46px;
       border: 1px solid rgb(15, 15, 15);
